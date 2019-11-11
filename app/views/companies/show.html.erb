@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Federalid:</strong>
+  <%= @company.federalId %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @company.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @company.address %>
+</p>
+
+<p>
+  <strong>Limit:</strong>
+  <%= @company.limit %>
+</p>
+
+<p>
+  <strong>Rate:</strong>
+  <%= @company.rate %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
